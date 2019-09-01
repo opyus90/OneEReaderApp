@@ -1,0 +1,127 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+  background: #7dbc76; 
+      
+}
+.login {
+margin: 20px auto;
+width: 400px;
+}
+
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+padding-top: 40px;
+border-radius: 4px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+#login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+button{
+      border: 0 !important;
+      -webkit-appearance: none !important;
+}
+button:focus { 
+      outline: none !important; 
+}
+
+input {
+text-align: center;
+background-color: #ecf0f1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 80%;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #33ff77 !important;
+background-color: #fff;
+box-shadow: none;
+}
+
+/* remove the yellow border from input in Chrome */
+input:-webkit-autofill{    
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn {
+  border: 2px solid transparent !important;
+  background: #219954;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #1b7e46 !important;
+  border: 2px solid transparent !important;
+}
+.btn:focus{
+  background-color: #1b7e46 !important;
+}
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+#title {
+ font-size: 40px;
+ margin-top: 6%;
+ text-align: center;
+ color: #fff;
+}
+
+
+
+
+.login-field{
+ background-color: #ecf0f1 !important;
+}
+
+@media screen and (max-width: 480px) {
+
+     .login {
+        margin: 20px auto;
+        width: 280px;
+      }
+      #title {
+        font-size: 30px;
+        margin-top: 6%;
+        text-align: center;
+        color: #fff;
+      }
+
+}
+
